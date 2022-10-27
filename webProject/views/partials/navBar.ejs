@@ -1,52 +1,50 @@
-<!--Nav Bar-->
+<!--NavBar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand">Find Icon Bro</a>
+    <a class="navbar-brand" href="/">INFR3120</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav ms-auto"> 
 
-        <!--Home Page-->
         <li class="nav-item">
         <% if (title == "Home") { %>
           <a class="nav-link active" href="/home">
         <% } else { %>
-        <a class="nav-link" href="/home">
+          <a class="nav-link" href="/home">
         <% } %>
-          <i class="fa-solid fa-house"></i> Home</a>
+          <i class="fa-solid fa-house"></i></i> Home</a>
         </li>
 
-        <!--About Page-->
         <li class="nav-item">
-        <% if (title == " About Me") {%>
+        <% if (title == "About Me") { %>
           <a class="nav-link active" href="/about">
         <% } else { %>
-        <a class="nav-link" href="/about">
+          <a class="nav-link" href="/about">
         <% } %>
-          <i class="fa-solid fa-person"></i></i> About Me</a>
+          <i class="fa-solid fa-person"></i>
+           About Me</a>
         </li>
 
-
-        <!--Projects Page-->
         <li class="nav-item">
-        <% if (title == " Projects") {%>
+        <% if (title == "Projects") { %>
           <a class="nav-link active" href="/projects">
         <% } else { %>
           <a class="nav-link" href="/projects">
         <% } %>
-          <i class="fa-regular fa-folder-open"></i> Projects</a>
+          <i class="fa-regular fa-folder-open"></i>        
+            Projects</a>
         </li>
 
-        <!--Contact Page-->
         <li class="nav-item">
-        <% if (title == " Contact Me") {%>
+        <% if (title == "Contact Me") { %>
           <a class="nav-link active" href="/contact">
         <% } else { %>
           <a class="nav-link" href="/contact">
         <% } %>
-          <i class="fa-solid fa-phone"></i></i> Contact Me</a>
+          <i class="fa-solid fa-phone"></i> 
+          Contact Me</a>
         </li>
 
     </div>

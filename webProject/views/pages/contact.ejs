@@ -1,0 +1,35 @@
+<!--Main Content-->
+<main>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4"><%= title %></h1>
+    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+  </div>
+</div>
+</main>  
+
+<div id="wrapper">
+  <!--Form for Contact me page-->
+  <div class="form">
+    <!--Send form to my email-->
+    <form action=mailto:katrina.yung@ontariotechu.net ?subject=Signup Form method="post" enctype="text/plain" name="form">
+      <p>
+      <!--Section for user to insert their name-->
+      <label for="name">Name</label>
+      <input type="text" name="name" placeholder="Enter your Name" size="40" required>
+      </p>   
+      <p>
+          <!--Section for user to insert their email-->
+          <label for="email">Email</label>
+          <input name="email" type="email" size="40" required>
+      </p> 
+      <p>
+          <!--Section for user to insert any comments-->
+          <label for="comments">Comments?</label><br>
+          <textarea name="comments" cols="40" rows="6"></textarea>
+      </p>
+      <!--Submit button-->
+      <p><input type="submit" value="Click here to submit the form"/></p>
+      <!--Reset button-->
+      <p><input type="reset" value="Click here to reset the form"/></p>
+    </div>          

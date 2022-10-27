@@ -1,0 +1,30 @@
+<!--Main Content-->
+<main>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4"><%= title %></h1>
+    <p class="lead">Hello! My name is Katrina. I am second year student at Ontario Tech University. I am currently studying Networking and IT Security.</p>
+  </div>
+</div>
+</main>  
+
+ <!--inserting picture of me-->
+    <img src="IMG-9635.jpg" style="width:220px;height:300px;" class="center">
+    <!--description text of my video-->
+    <p>Here is a video of my three dogs!</p>
+    <!--insert video of my dogs-->
+    <video width="320" height="240" controls preload="auto" autoplay loop muted poster="dawgs.png" id="video" class = center>
+        <source src="recorded-309932940797.MOV" type="video/mp4">
+        <source src="recorded-309932940797.MOV" type="video/ogg">
+    </video>
+  <br>
+  <!--create play and pause button-->
+  <button class = center onclick="playPause()">Play/Pause</button>
+  <script>
+  var myVideo=document.getElementById("video");
+  function playPause()
+  {
+  if (myVideo.paused)
+  myVideo.play();
+  else myVideo.pause();
+  }
