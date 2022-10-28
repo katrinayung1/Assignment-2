@@ -29,7 +29,6 @@ p{
 /* Style for Navigation Bar*/
 .navbar {
     background-color: #83818C;
-    border-radius: 30px;
     overflow: hidden;
   }
   
@@ -89,3 +88,11 @@ p{
     text-align: center;
     clear: both;
   }
+
+
+.navbar-text {
+  color: #f2f2f2;
+  font-size: 14px;
+  border-radius: 30px;
+  text-align: center;
+}
