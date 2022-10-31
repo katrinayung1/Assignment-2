@@ -2,7 +2,7 @@
 
 /*Style for body*/
 body{
-    background-color: #F0F0F2;
+    background-color: #D5DCF2;
     height: 100%
 }
 
@@ -28,7 +28,7 @@ p{
 
 /* Style for Navigation Bar*/
 .navbar {
-    background-color: #83818C;
+    background-color: #D9CDBF;
     overflow: hidden;
   }
   
@@ -53,8 +53,7 @@ p{
   
   /* Make active link colored */
   .navbar a.active {
-    background-image: linear-gradient(#adeeef, rgb(136, 52, 238));
-    border-radius: 30px;
+    background-color: #7d99f6;    border-radius: 30px;
     color: white;
   }
 
